@@ -1,0 +1,15 @@
+<html>
+<head>
+  	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<div ng-app="chartApp" ng-controller="SalesController">
+  <h1>Today's Sales Chart</h1>
+  <div linear-chart chart-data="salesData"></div>
+</div>
+</body>
+</html>
